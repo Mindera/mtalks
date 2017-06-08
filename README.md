@@ -3,10 +3,10 @@
 This is the resources of all talks performed
 
 ## #1 MTalk | Reactive Programming on Steroids
-- [Talk]()
+- [Talk](https://github.com/Mindera/mtalks/blob/master/ep1/README.md)
 
 ## #2 MTalk | Unpack Webpack
-- [Talk]()
+- [Talk](https://github.com/Mindera/mtalks/blob/master/ep2/README.md)
 
 ## All presentations
 
