@@ -10,6 +10,12 @@ This is the resources of all talks performed
 
 ### #4 MTalk | Frontend discussion
 
+### #5 MTalk | Interviewing for Tree Stumps
+
+### #6 MTalk | Node Grid
+
+### #7 MTalk | Specialty Coffee
+
 ### All presentations
 
 - [Playlist](https://www.youtube.com/playlist?list=PLUjtx-mX3t3Y-DA3sx-lYGlwOvuDZIzeK)
