@@ -18,6 +18,8 @@ This is the resources of all talks performed
 
 \#8 MTalk | Let's play with Java 9
 
+[#9 MTalk | Coding Dojo](https://github.com/Mindera/mtalks/blob/master/ep9/README.md)
+
 All presentations
 
 - [Playlist](https://www.youtube.com/playlist?list=PLUjtx-mX3t3Y-DA3sx-lYGlwOvuDZIzeK)
