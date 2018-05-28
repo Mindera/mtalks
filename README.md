@@ -20,6 +20,8 @@ This is the resources of all talks performed
 
 [#9 MTalk | Coding Dojo](https://github.com/Mindera/mtalks/blob/master/ep9/README.md)
 
+[#10 MTalk | Electronic Javascript Music](http://electronic-javascript-music-slides.surge.sh/)
+
 All presentations
 
 - [Playlist](https://www.youtube.com/playlist?list=PLUjtx-mX3t3Y-DA3sx-lYGlwOvuDZIzeK)
