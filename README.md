@@ -1,6 +1,6 @@
 # Welcome to Mindera Talks
 
-This is the resources of all talks performed
+#### **Talks**
 
 [#1 MTalk | Reactive Programming on Steroids](https://github.com/Mindera/mtalks/blob/master/ep1/README.md)
 
@@ -22,6 +22,10 @@ This is the resources of all talks performed
 
 [#10 MTalk | Electronic Javascript Music](http://electronic-javascript-music-slides.surge.sh/)
 
-All presentations
+[Youtube Playlist](https://www.youtube.com/playlist?list=PLUjtx-mX3t3Y-DA3sx-lYGlwOvuDZIzeK)
 
-- [Playlist](https://www.youtube.com/playlist?list=PLUjtx-mX3t3Y-DA3sx-lYGlwOvuDZIzeK)
+
+#### **You can participate**
+
+How to make an mtalk
+
