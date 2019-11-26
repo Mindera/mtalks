@@ -1,0 +1,48 @@
+Description: Serverless demo
+Transform: AWS::Serverless-2016-10-31
+
+Resources:
+  PostFoosToSQS:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ./dist
+      Handler: PostFoosToSQSHandler.default
+      Runtime: nodejs12.x
+      MemorySize: 256
+      Timeout: 5
+      Policies:
+        - SQSSendMessagePolicy:
+            QueueName: !GetAtt FoosSQS.QueueName
+      Events:
+        FoosApiPostEvent:
+          Type: Api
+          Properties:
+            Path: /foos
+            Method: POST
+      Environment:
+        Variables:
+          QUEUE_URL: !Ref FoosSQS
+
+  ProcessFoos:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ./dist
+      Handler: ProcessFoosHandler.default
+      Runtime: nodejs12.x
+      MemorySize: 128
+      Timeout: 5
+      Events:
+        FoosApiPostEvent:
+          Type: SQS
+          Properties:
+            Queue: !GetAtt FoosSQS.Arn
+            BatchSize: 1
+
+  FoosSQS:
+    Type: AWS::SQS::Queue
+    Properties:
+      VisibilityTimeout: 10 # this needs to be greater than ProcessFoos::Timeout
+
+Outputs:
+  Api:
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/${ServerlessRestApiProdStage}/"

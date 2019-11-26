@@ -1,0 +1,26 @@
+{
+  "Records": [
+    {
+      "messageId": "41ecbc7f-c61e-4418-9d8a-0e23cc4fcdbc",
+      "receiptHandle": "",
+      "body": "{\"name\":\"Yeah\"}",
+      "attributes": "",
+      "messageAttributes": {},
+      "md5OfBody": "962762944ddccc824c2d82dfc07c7583",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "",
+      "awsRegion": "eu-west-1"
+    },
+    {
+      "messageId": "41ecbc7f-c61e-4418-9d8a-0e23cc4fcdbd",
+      "receiptHandle": "",
+      "body": "{\"name\":\"Fail\"}",
+      "attributes": "",
+      "messageAttributes": {},
+      "md5OfBody": "962762944ddccc824c2d82dfc07c7583",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "",
+      "awsRegion": "eu-west-1"
+    }
+  ]
+}

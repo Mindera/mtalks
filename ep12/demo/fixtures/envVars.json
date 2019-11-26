@@ -1,0 +1,5 @@
+{
+  "PostFoosToSQS": {
+    "QUEUE_URL": "localhost: 4576"
+  }
+}
