@@ -1,0 +1,33 @@
+{
+  "name": "serverless-demo",
+  "version": "1.0.0",
+  "description": "Serverless demo for the mtalk @mindera",
+  "scripts": {
+    "build": "webpack --config webpack.js",
+    "watch": "yarn build --watch",
+    "start": "sam local start-api -n fixtures/envVars.json -p 5000 -t template.yaml",
+    "dev": "concurrently \"yarn:watch\" \"yarn:start\"",
+    "function": "sam local invoke --env-vars fixtures/envVars.json",
+    "function:PostFoosToSQS": "yarn function --event fixtures/foo.json PostFoosToSQS",
+    "function:ProcessFoos": "yarn function --event fixtures/records.json ProcessFoos",
+    "create-bucket": "aws s3 mb s3://mtalk-serverless-demo-2019",
+    "package": "sam package --debug --template template.yaml --s3-bucket mtalk-serverless-demo-2019 --output-template-file packaged.yaml",
+    "deploy": "sam deploy --template-file packaged.yaml --stack-name mtalk-serverless-demo-2019 --capabilities CAPABILITY_IAM"
+  },
+  "author": "Duarte Mendes <duarte.mendes@mindera.com> & Paulo Andrade <paulo.andrade@mindera.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.36",
+    "@types/node": "^12.12.9",
+    "aws-sdk": "~2.536.0",
+    "concurrently": "^5.0.0",
+    "prettier": "^1.19.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.16"
+  }
+}

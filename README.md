@@ -24,6 +24,8 @@ This is the resources of all talks performed
 
 [#11 MTalk | Typing in Typescript ](./ep11/README.md)
 
+[#12 MTalk | Serverless is not magic](./ep12/README.md)
+
 All presentations
 
 - [Playlist](https://www.youtube.com/playlist?list=PLUjtx-mX3t3Y-DA3sx-lYGlwOvuDZIzeK)
