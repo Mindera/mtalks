@@ -1,6 +1,12 @@
 # Welcome to Mindera Talks
 
-This is the resources of all talks performed
+#### **You can participate**
+
+How to make an mtalk
+[Guide](https://github.com/Mindera/mtalks/blob/master/HOWTO.md)
+
+
+#### **Talks**
 
 [#1 MTalk | Reactive Programming on Steroids](https://github.com/Mindera/mtalks/blob/master/ep1/README.md)
 
@@ -26,6 +32,6 @@ This is the resources of all talks performed
 
 [#12 MTalk | Serverless is not magic](./ep12/README.md)
 
-All presentations
 
-- [Playlist](https://www.youtube.com/playlist?list=PLUjtx-mX3t3Y-DA3sx-lYGlwOvuDZIzeK)
+All presentations
+[Youtube Playlist](https://www.youtube.com/playlist?list=PLUjtx-mX3t3Y-DA3sx-lYGlwOvuDZIzeK)
