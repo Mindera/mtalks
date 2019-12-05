@@ -1,5 +1,11 @@
 # Welcome to Mindera Talks
 
+#### **You can participate**
+
+How to make an mtalk
+[Guide](https://github.com/Mindera/mtalks/blob/master/HOWTO.md)
+
+
 #### **Talks**
 
 [#1 MTalk | Reactive Programming on Steroids](https://github.com/Mindera/mtalks/blob/master/ep1/README.md)
@@ -22,10 +28,10 @@
 
 [#10 MTalk | Electronic Javascript Music](http://electronic-javascript-music-slides.surge.sh/)
 
+[#11 MTalk | Typing in Typescript ](./ep11/README.md)
+
+[#12 MTalk | Serverless is not magic](./ep12/README.md)
+
+
+All presentations
 [Youtube Playlist](https://www.youtube.com/playlist?list=PLUjtx-mX3t3Y-DA3sx-lYGlwOvuDZIzeK)
-
-
-#### **You can participate**
-
-How to make an mtalk
-
