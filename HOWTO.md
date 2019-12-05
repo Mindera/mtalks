@@ -1,9 +1,9 @@
 # How to make an mtalk
 
-This will be a simple guide on how we normally do these mtalks
+This is a simple guide on how we normally do these mtalks
  
 
-**Find a place where people can gather together**
+### Find a place to gather people
 
 You can try to speak with Mindera *operations* in order to do that, usually we try:
 
@@ -17,18 +17,18 @@ If you want to do a remote talk we usually use:
 - Zoom
 
 
-**Some logistics if you schedule a room**
+### Some logistics if you schedule a room
 
-- Seats
+#### Seats
 
-Only **room 103** has chairs on it, and if you think those are not enough for the audience you’ll have, you can pick more in **116 room**
+Only **room 103** has chairs so if you think you will have more audience you can pick more in **room 116**
 
-- Projector
+#### Projector
 
-You can find one in room 216, again you can ask *operations*
+You can find one in **room 216**, or you can ask *operations*
 
 
-**Notifications**
+### Notifications
 
 Depending on your place and target you can notify people by:
 
@@ -36,7 +36,7 @@ Depending on your place and target you can notify people by:
 - Slack
 - Email (group lists eg: developers, operations, designers)
 
-This is a template for a mtalk announcement
+This is a template for announcing a mtalk
 
 ```
 #<number of mtalk> MTalk | <title> | <speaker 1> & <speaker2>
@@ -58,6 +58,6 @@ For more information join #mtalks
 Mindera
 ```
 
-**Presentation**
+### Presentation
 
 We have a cover template for your presentations
