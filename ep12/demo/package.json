@@ -19,7 +19,7 @@
   "devDependencies": {
     "@types/aws-lambda": "^8.10.36",
     "@types/node": "^12.12.9",
-    "aws-sdk": "~2.536.0",
+    "aws-sdk": "~2.814.0",
     "concurrently": "^5.0.0",
     "prettier": "^1.19.1",
     "ts-loader": "^6.2.1",
